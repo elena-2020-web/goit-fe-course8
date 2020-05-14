@@ -96,6 +96,7 @@ a {
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2;
+  letter-spacing: 1px;
 }
 .title {
   font-size: 1.875rem;
@@ -111,6 +112,7 @@ a {
   color: rgb(255, 255, 255);
   line-height: 1.2;
   margin-bottom: 18px;
+  font-weight: 300;
 }
 .sub-title-transfer {
   display: block;
@@ -191,6 +193,7 @@ a {
   color: rgb(102, 102, 102);
   line-height: 1.2;
   text-align: center;
+  font-weight: 300;
 }
 .partner-btn {
   border: none;
@@ -271,10 +274,9 @@ a {
   .partner-btn {
     padding: 10px 28px;
   }
-  .partner-list-items:nth-child(2n) {
-    margin-bottom: 0;
-  }
-  .partner-list-items {
+}
+@media (min-width: 768px) and (max-width: 959px) {
+  .partner-list-items:nth-child(2n + 1) {
     margin-bottom: 56px;
   }
 }
@@ -294,8 +296,5 @@ a {
   }
   .partner-list {
     max-width: 940px;
-  }
-  .partner-list-items {
-    margin-bottom: 0;
   }
 }
