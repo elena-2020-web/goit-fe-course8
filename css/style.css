@@ -73,9 +73,6 @@ a {
 .navigation {
   padding-bottom: 36px;
 }
-.wrapper {
-  margin-bottom: 80px;
-}
 .navigation-btn {
   border: none;
   background-color: inherit;
@@ -213,6 +210,9 @@ a {
   .sub-title-transfer {
     display: block;
   }
+  .wrapper {
+    margin-bottom: 80px;
+  }
 }
 @media (min-width: 768px) {
   .container {
@@ -230,9 +230,6 @@ a {
   .slider {
     background-image: url(../img/tablet/foto-slider-t.png);
     padding-top: 36px;
-  }
-  .wrapper {
-    margin-bottom: 0;
   }
   .title {
     margin: 0 auto;
